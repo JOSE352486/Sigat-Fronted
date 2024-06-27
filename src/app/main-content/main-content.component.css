@@ -1,0 +1,35 @@
+/* main-content.component.css */
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 200px; /* Aumentar el espacio entre las tarjetas */
+  padding: 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  max-width: 300px; /* Asegúrate de que las tarjetas no sean demasiado anchas */
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.card button {
+  background-color: #003366;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background-color: #00509e;
+}

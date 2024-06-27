@@ -1,0 +1,26 @@
+/* servicio-cliente.component.css */
+
+h2 {
+  font-size: 3em; /* Ajusta el tamaño según sea necesario */
+  text-align: center; /* Alinea el texto al centro */
+  margin-bottom: 50px; /* Agrega un margen inferior */
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card {
+  width: 100%;
+}
+
+.image-container {
+  width: 100%;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
