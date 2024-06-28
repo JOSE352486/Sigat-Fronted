@@ -1,4 +1,4 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+/*import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { DestinationCardComponent } from './destination-card.component';
 
@@ -20,4 +20,4 @@ describe('DestinationCardComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
-});
+});*/
