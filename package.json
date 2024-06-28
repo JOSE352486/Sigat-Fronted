@@ -22,11 +22,7 @@
     "bootstrap-icons": "^1.11.3",
     "ngx-pagination": "^6.0.3",
     "rxjs": "~7.8.0",
-<<<<<<< HEAD
     "sweetalert2": "^11.6.13",
-=======
-    "sweetalert2": "^11.11.1",
->>>>>>> 7128e14252fd1f1e6261ffd27a1947a6445d6753
     "tslib": "^2.3.0",
     "zone.js": "~0.14.3"
   },

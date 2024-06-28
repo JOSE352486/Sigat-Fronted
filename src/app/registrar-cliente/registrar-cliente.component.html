@@ -3,17 +3,10 @@
     <div class="col-md-6">
       <div class="card">
         <div class="card-header text-center">
-<<<<<<< HEAD
           <h2>Registrar Cliente</h2>
         </div>
         <div class="card-body">
           <form #clienteForm="ngForm" (ngSubmit)="registrarCliente(clienteForm)">
-=======
-          <h2>{{ editMode ? 'Actualizar Cliente' : 'Registrar Cliente' }}</h2>
-        </div>
-        <div class="card-body">
-          <form (ngSubmit)="registrarCliente()">
->>>>>>> 7128e14252fd1f1e6261ffd27a1947a6445d6753
             <div class="mb-3">
               <label for="nombre" class="form-label">Nombre:</label>
               <input type="text" class="form-control" id="nombre" [(ngModel)]="cliente.Cliente_Nombre" name="nombre" required>
@@ -34,11 +27,7 @@
               <label for="correo" class="form-label">Correo:</label>
               <input type="email" class="form-control" id="correo" [(ngModel)]="cliente.Cliente_Correo" name="correo" required>
             </div>
-<<<<<<< HEAD
             <button type="submit" class="btn btn-primary w-100">Registrar</button>
-=======
-            <button type="submit" class="btn btn-primary w-100">{{ editMode ? 'Actualizar' : 'Registrar' }}</button>
->>>>>>> 7128e14252fd1f1e6261ffd27a1947a6445d6753
           </form>
         </div>
       </div>
@@ -75,7 +64,6 @@
                 <td>{{ cliente.Cliente_ApeMaterno }}</td>
                 <td>{{ cliente.Cliente_Telefono }}</td>
                 <td>{{ cliente.Cliente_Correo }}</td>
-<<<<<<< HEAD
                 
                 <td>
                   <button class="btn btn-warning btn-sm" (click)="editarCliente(cliente)">Editar</button>
@@ -84,12 +72,6 @@
                 
                   
                 
-=======
-                <td>
-                  <button class="btn btn-warning btn-sm" (click)="editarCliente(cliente)">Editar</button>
-                  <button class="btn btn-danger btn-sm" (click)="eliminarCliente(cliente.PK_Cliente_ID)">Eliminar</button>
-                </td>
->>>>>>> 7128e14252fd1f1e6261ffd27a1947a6445d6753
               </tr>
             </tbody>
           </table>
