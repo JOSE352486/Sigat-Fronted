@@ -1,0 +1,13 @@
+/* styles.css o app.component.css */
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+  }
+  
+  body {
+    margin-top: 0; /* Ajusta este valor según la altura de tu barra de navegación */
+  }
+  

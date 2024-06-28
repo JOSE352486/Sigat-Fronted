@@ -1,0 +1,33 @@
+<!-- registrar-reserva.component.html -->
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-header text-center">
+          <h2>Registrar Reserva</h2>
+        </div>
+        <div class="card-body">
+          <form (ngSubmit)="registrarReserva()">
+            <div class="mb-3">
+              <label for="clienteNombre" class="form-label">Nombre del Cliente:</label>
+              <input type="text" class="form-control" id="clienteNombre" [(ngModel)]="reserva.clienteNombre" name="clienteNombre" required>
+            </div>
+            <div class="mb-3">
+              <label for="productoNombre" class="form-label">Nombre de la Reserva:</label>
+              <input type="text" class="form-control" id="productoNombre" [(ngModel)]="reserva.productoNombre" name="productoNombre" required>
+            </div>
+            <div class="mb-3">
+              <label for="fechaInicio" class="form-label">Fecha de Inicio:</label>
+              <input type="date" class="form-control" id="fechaInicio" [(ngModel)]="reserva.fechaInicio" name="fechaInicio" required>
+            </div>
+            <div class="mb-3">
+              <label for="fechaTermino" class="form-label">Fecha de Término:</label>
+              <input type="date" class="form-control" id="fechaTermino" [(ngModel)]="reserva.fechaTermino" name="fechaTermino" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Registrar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
